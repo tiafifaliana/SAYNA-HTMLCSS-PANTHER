@@ -1,0 +1,12 @@
+html{
+    font-family: 'Panthera', sans-serif;
+    font-family: 'BEYNO', sans-serif;
+    font-family: 'Wakanda forever', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right,#000818,#1e3052);
+    background-repeat: no-repeat;
+}
+.menu{
+    position: fixed;
+}
