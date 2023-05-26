@@ -1,3 +1,4 @@
+/* police */
 @font-face{
     font-family: 'Panthera';
     src: url(fonts/Panthera.ttf) format('truetype');
@@ -16,14 +17,13 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/* règle générale html */
 html{
     font-family: 'Cantarell', sans-serif;
     color: #FFFFFF;
     background-image: linear-gradient(to right,#000818,#1e3052);
     background-repeat: no-repeat;
 }
-
 /* en-tête */
 nav{
     font-family: 'Panthera', sans-serif;
@@ -34,4 +34,146 @@ nav{
 }
 .menu{
     display: flex;
+    position: absolute;
+    top: 1em;
+    right: 10em;
 }
+.menu>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 2em;
+}
+/* icones réseaux sociaux (fixe) */
+aside{
+    position: fixed;
+    display: grid;
+    top: 20em;
+    left: 5em;
+}
+aside>a{
+    padding-top: 1em;
+}
+.border1{
+    position: fixed;
+    height: 495px;
+    margin-top: -1em;
+    margin-left: 3.5em;
+    border-left: 3px solid #9E91B7;
+}
+.border2{
+    position: fixed;
+    height: 330px;
+    margin-top: -1em;
+    margin-left: 5em;
+    border-left: 3px solid #9E91B7;
+}
+/* corps de la page */
+    /* section 1 */
+section{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid #9E91B7;
+}
+h1{
+    font-size: 68px;
+    color: #9E91B7;
+    margin-top: 2.5em;
+    margin-bottom: -1%;
+}
+h2{
+    font-size: 32px;
+    color: #9E91B7;
+    margin-top: -1%;
+}
+img[src="images/Accueil/Pantherhome1.png"]{
+    position: relative;
+    width: 55em;
+    margin-right: -5vw;
+}
+p{
+    text-align: justify;
+}
+.suite>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 2px solid #FFFFFF;
+}
+    /* section 2 */
+.description>h3{
+    font-size: 24px;
+    margin-bottom: -3%;
+}
+.second-section{
+    width: 92.5%;
+    height: 350px;
+    margin-left: 7.5%;
+    background-color: #021740;
+    justify-content: left;
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+.personnage{
+    display: flex;
+}
+.personnage>img{
+    height: 100%;
+    padding: 0%;
+}
+img[src="images/Accueil/Pantherhome2.png"]{
+    position: relative;
+    margin-left: 2.5em;
+    height: 30em;
+    margin-top: -7%;
+}
+.description{
+    width: 25em;
+    padding: 2em;  
+}
+.description>p{
+    margin-bottom: -3%;
+}
+    /* section 3 */
+.texte{
+    width: 50%;
+    margin: auto;
+
+}
+ul{
+    list-style: "-";
+    margin-top: -1rem;
+    padding-left: 1rem;
+}
+        /* illustration */
+.illustration{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    z-index: 2;
+}   
+figcaption{
+    text-align: center;
+    font-size: 26px;
+    color: black;
+}
+.biographie{
+    background-color: #ffffffe5;
+    color: black;
+    border-radius: 10px;
+
+    height: 500px;
+    margin-left: -1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: -20rem;
+    z-index: 1;
+}
+
