@@ -1,0 +1,99 @@
+section{
+    display: flex;
+}
+    /* première section */
+.first-section{
+    margin-top: -15em;
+}
+img[src="images/Enigme/Pantherenigme1.png"]{
+    width: 80em;
+}
+img[src="images/Enigme/Pantherenigme2.png"]{
+    width: 50em;
+    margin-left: -50px;
+}
+h1{
+    font-size: 68px;
+    font-family: 'BEYNO', sans-serif;
+    color: #9E91B7;
+    width: 600px;
+    text-align: justify;
+    font-weight: normal;
+    margin-top: 400px;
+}
+.lateral{
+    margin-left: -15em;
+}
+.description{
+    width: 550px;
+    margin: -320px 80px;
+    font-size: 14px;
+    text-align: justify;
+}
+img[src="images/Enigme/Pantherenigme3.png"]{
+    margin-top: 470px;
+}
+    /* citation */
+#citation{
+    font-size: 32px;
+    font-family: 'Wakanda', sans-serif;
+    font-weight: normal;
+    color: #9E91B7;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    width: 1100px;
+    margin-left: 300px;
+    margin-top: 150px;
+    line-height: 1.7;
+}
+.second-section{
+    margin-left: 300px;
+    width: 80em;
+    height: 400px;
+}
+span{
+    font-family: 'Wakanda', sans-serif;
+}
+.code{
+    width: 535px;
+    margin-bottom: 150px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    border-radius: 38px;
+    margin-bottom: 15px;
+    border: 2px solid #F2CEF2;
+    padding-left: 30px;
+    background-color: #ffffff00;
+    color: #F2CEF2;
+    resize: none;
+    font-weight: bold;
+}
+button{
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    background-color: #F2CEF2;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+#second{
+    margin-left: 100px;
+}
+.question{
+    width: 550px;
+    margin: -330px 200px;
+    font-size: 14px;
+    text-align: center;
+}
+.query{
+    width: 550px;
+    margin: 350px 200px;
+    font-size: 14px;
+    text-align: center;
+}

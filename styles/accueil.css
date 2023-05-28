@@ -1,0 +1,196 @@
+/* corps de la page */
+    /* section 1 */
+    section{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        width: 80%;
+    }
+    h1{
+        font-size: 68px;
+        color: #9E91B7;
+        margin-top: 2.5em;
+        margin-bottom: -1%;
+        font-family: 'Panthera', sans-serif;
+        font-weight: normal;
+    }
+    h2{
+        font-size: 32px;
+        color: #9E91B7;
+        margin-top: -1%;
+        font-family: 'BEYNO', sans-serif;
+        font-weight: normal;
+    }
+    img[src="images/Accueil/Pantherhome1.png"]{
+        position: relative;
+        width: 55em;
+        margin-right: -5vw;
+    }
+    p{
+        text-align: justify;
+    }
+    .suite>a{
+        color: #FFFFFF;
+        text-decoration: none;
+        border-bottom: 2px solid #FFFFFF;
+    }
+        /* section 2 */
+    .description>h3{
+        margin-bottom: -2%;
+    }
+    h3{
+        font-family: 'BEYNO', sans-serif;
+        font-size: 24px;
+        color: #9E91B7;
+        font-weight: normal;
+    }
+    .second-section{
+        width: 92.5%;
+        height: 350px;
+        margin-left: 7.5%;
+        background-color: #021740;
+        justify-content: left;
+        margin-top: 5%;
+        margin-bottom: 12%;
+    }
+    .personnage{
+        display: flex;
+    }
+    .personnage>img{
+        height: 100%;
+        padding: 0%;
+    }
+    img[src="images/Accueil/Pantherhome2.png"]{
+        position: relative;
+        margin-left: 2.5em;
+        height: 30em;
+        margin-top: -7%;
+    }
+    .description{
+        width: 25em;
+        padding: 2em;  
+    }
+    .description>p{
+        margin-bottom: -3%;
+    }
+        /* section 3 */
+    .texte{
+        width: 50%;
+        margin: auto;
+    
+    }
+    ul{
+        list-style: "-";
+        margin-top: -1rem;
+        padding-left: 1rem;
+    }
+            /* illustration */
+    .illustration{
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+    }
+    figure{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        z-index: 2;
+    }   
+    figcaption{
+        text-align: center;
+        font-size: 26px;
+        color: black;
+        margin-bottom: 5%;
+    }
+    .biographie{
+        background-color: #ffffffe5;
+        color: black;
+        border-radius: 10px;
+        height: 900px;
+        margin-left: -1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: -20rem;
+        z-index: 1;
+    }
+    .boutton>a{
+        font-size: 80%;
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: darkslateblue;
+        border-radius: 3px;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .boutton{
+        display: flex;
+        padding-top: 20rem;
+        justify-content: center; 
+    }
+    img[src="images/Accueil/Pantherhome6.png"]{
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        margin-top: 5em;
+    }
+        /* formulaire */
+    img[src="images/Accueil/Pantherhome7.png"]{
+        margin-top: 5em;
+        max-width: 1920px;
+    }
+    .contact{
+        position: relative;
+        margin: auto;
+        width: 50%;
+        border-radius: 150px;
+        margin-top: -55em;
+        background-image: linear-gradient(to bottom, #FFFFFF, #ffffff94, #ffffff17);
+        color: black;
+    }
+    .contact>div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .questionnaire{
+        padding-top: 50px;
+        margin-bottom: -15px;
+    }
+    #special{
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: auto;
+        margin-bottom: 25px;
+    }
+    input,textarea{
+        height: 50px;
+        width: 400px;
+        border-radius: 38px;
+        margin-bottom: 15px;
+        border: 1px solid #021740;
+        padding-left: 30px;
+        background-color: #ffffff00;
+        resize: none;
+    }
+    #message{
+        min-height: 15em;
+    }
+    textarea{
+        text-align: left;
+        padding-top: 20px;
+    }
+    button{
+        width: 174px;
+        height: 54px;
+        border-radius: 38px;
+        background-color: #F2CEF2;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
